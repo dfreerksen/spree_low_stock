@@ -1,0 +1,10 @@
+---
+en:
+  spree:
+    lowstock:
+      notification: 'Low stock. Only %{count} left!'
+      admin:
+        fieldset:
+          settings: Low Stock Settings
+        field:
+          low_stock_threshold: Low Stock Threshold

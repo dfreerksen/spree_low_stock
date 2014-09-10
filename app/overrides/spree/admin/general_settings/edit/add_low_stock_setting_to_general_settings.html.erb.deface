@@ -1,0 +1,10 @@
+<!-- insert_after 'fieldset.security' -->
+<fieldset class="security no-border-bottom">
+  <legend align="center"><%= Spree.t('lowstock.admin.fieldset.settings')%></legend>
+
+  <% type = Spree::Config.preference_type(:low_stock_threshold) %>
+  <div class="field">
+    <%= label_tag(:low_stock_threshold, Spree.t('lowstock.admin.field.low_stock_threshold')) + tag(:br) %>
+    <%= preference_field_tag(:low_stock_threshold, Spree::Config.low_stock_threshold, type: type) %>
+  </div>
+</fieldset>

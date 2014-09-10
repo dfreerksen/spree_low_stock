@@ -1,0 +1,4 @@
+<!-- insert_bottom '#product-price' -->
+<% if !@product.has_variants? && @product.master.should_track_inventory? && @product.master.low_stock? %>
+  <span class="product low-stock"><%= Spree.t('lowstock.notification', count: @product.master.total_on_hand) %></span>
+<% end %>

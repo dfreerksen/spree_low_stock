@@ -1,0 +1,4 @@
+<!-- insert_bottom '#product-variants li' -->
+<% if variant.should_track_inventory? && variant.low_stock? %>
+  <span class="variation low-stock"><%= Spree.t('lowstock.notification', count: variant.total_on_hand) %></span>
+<% end %>
