@@ -1,0 +1,14 @@
+# Site settings
+title: Spree Low Stock
+email: dfreerksen@gmail.com
+description: spree_low_stock is an extension for Spree to notify the user of products and product variations that are low in stock.
+baseurl: ""
+url: "http://groundctrl.github.io/spree_low_stock"
+
+# Build settings
+markdown: kramdown
+
+# SASS/SCSS
+sass:
+  sass_dir: _scss
+  style: :compressed
