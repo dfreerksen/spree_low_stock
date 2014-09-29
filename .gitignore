@@ -10,3 +10,4 @@ spec/dummy
 log/*.log
 .bundle
 rspec.log
+_site

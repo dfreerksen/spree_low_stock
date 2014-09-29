@@ -1,5 +1,7 @@
 # Spree Low Stock
 
+http://groundctrl.github.io/spree_low_stock/
+
 Low stock notification for products and product variations.
 
 > Still under development. Not ready for production.
