@@ -2,7 +2,9 @@
 en:
   spree:
     lowstock:
-      notification: 'Low stock. Only %{count} left!'
+      notification:
+        one: 'Only %{count} remains!'
+        other: 'Only %{count} remain!'
       admin:
         fieldset:
           settings: Low Stock Settings

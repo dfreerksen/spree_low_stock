@@ -1,4 +1,9 @@
 .low-stock {
+  &.product,
+  &.variation {
+    color: #ff6600;
+  }
+
   &.product { }
 
   &.variation { }
