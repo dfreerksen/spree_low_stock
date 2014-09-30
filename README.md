@@ -1,10 +1,8 @@
 # Spree Low Stock
 
-http://groundctrl.github.io/spree_low_stock/
-
 Low stock notification for products and product variations.
 
-> Still under development. Not ready for production.
+> More information at http://groundctrl.github.io/spree_low_stock
 
 
 ## Threshold
