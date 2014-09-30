@@ -190,9 +190,25 @@ footer {
   bottom: 50px;
 }
 
-p a.fancybox {
-  float: left;
-  padding: 5px;
+p {
+  &:after {
+    content:"";
+    display:table;
+    clear:both;
+  }
+
+  a.fancybox {
+    float: left;
+    padding: 5px;
+
+    &.left {
+      float: left;
+    }
+
+    &.right {
+      float: right;
+    }
+  }
 }
 
 @media print, screen and (max-width: 960px) {
