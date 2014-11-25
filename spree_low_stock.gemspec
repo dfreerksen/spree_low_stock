@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   spec.has_rdoc     = false
   spec.requirements << 'none'
 
-  spec.add_dependency 'spree_core', '~> 2.3.0'
+  spec.add_dependency 'spree_core', '~> 2.4.0'
 
   spec.add_development_dependency 'sass-rails'
   spec.add_development_dependency 'coffee-rails'
@@ -37,6 +37,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'factory_girl', '~> 4.4'
   spec.add_development_dependency 'simplecov', '~> 0.7'
   spec.add_development_dependency 'pry', '~> 0.9'
-  spec.add_development_dependency 'debugger', '~> 1.6'
   spec.add_development_dependency 'shoulda-matchers', '~> 2.5'
 end

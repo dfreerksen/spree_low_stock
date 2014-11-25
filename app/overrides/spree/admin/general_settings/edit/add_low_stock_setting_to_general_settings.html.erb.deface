@@ -1,4 +1,4 @@
-<!-- insert_after 'fieldset.security' -->
+<!-- insert_after 'fieldset.currency' -->
 <fieldset class="security no-border-bottom">
   <legend align="center"><%= Spree.t('lowstock.admin.fieldset.settings')%></legend>
 
